@@ -1,0 +1,44 @@
+.items{
+    padding: 5px;
+    margin-top: 60px;
+}
+
+.key__features{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.feature__details{
+    display:flex;
+    flex-direction: column;
+}
+
+.feature__image{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFAE8C;
+    border-radius: 50%;
+}
+
+.feature__description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about__usdescription{
+    margin-top: 25px;
+    display:flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    text-align: left;
+    justify-content: center;
+}
+
+.about__usHeading{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+
+}
