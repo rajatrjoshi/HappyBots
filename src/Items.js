@@ -4,36 +4,123 @@ import Truck from './truck.svg';
 import Ruppee from './ruppee.svg';
 import Phone from './phone.svg';
 import "bootstrap/dist/css/bootstrap.css";
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+import ImageSlider from './component/ImageSlider';
+import { SliderData } from './component/SliderData';
+// import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 // import CarouselContainer from './component/CarouselContainer.js';
-
+import Service1 from './service.svg';
 
 function Items() {
     return (
         <div className="items">
-                {/* <CarouselContainer /> */}
+            <div className="carousel">
+                <ImageSlider slides={SliderData} />;
+            </div>
+
+            <div className="services__offered">
+                <div className="service__details1">
+                    <div className="details__line1">
+                        <div className="service__logo">
+                            < img src={Service1} alt=""  width="40px" height="40px"/>
+                        </div>
+                        <div className="service__title">
+                            Vehicle Serciving
+                        </div>
+                        <div className="service__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div>
+                      
+                    
+                    <div className="details__line1">
+                        <div className="service__logo">
+                            < img src={Service1} alt=""  width="40px" height="40px"/>
+                        </div>
+                        <div className="service__title">
+                            Vehicle Serciving
+                        </div>
+                        <div className="service__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div> 
+
+                    <div className="details__line1">
+                        <div className="service__logo">
+                            < img src={Service1} alt=""  width="40px" height="40px"/>
+                        </div>
+                        <div className="service__title">
+                            Vehicle Serciving
+                        </div>
+                        <div className="service__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="service__details1"> 
+
+                    <div className="details__line1">
+                        <div className="service__logo">
+                            < img src={Service1} alt=""   width="40px" height="40px"/>
+                        </div>
+                        <div className="service__title">
+                            Vehicle Serciving
+                        </div>
+                        <div className="service__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div>
+                    
+                    <div className="details__line1">
+                        <div className="service__logo">
+                            < img src={Service1} alt=""   width="40px" height="40px"/>
+                        </div>
+                        <div className="service__title">
+                            Vehicle Serciving
+                        </div>
+                        <div className="service__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div>
+
+                    <div className="details__line1">
+                        <div className="service__logo">
+                            < img src={Service1} alt=""  width="40px" height="40px"/>
+                        </div>
+                        <div className="service__title">
+                            Vehicle Serciving
+                        </div>
+                        <div className="service__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </div>
+                    </div>  
+                </div>            
+            </div>
+            
             <div className="key__features">
                 <div className="feature__details">
                     <div className="feature__image">
-                        <img src={Ruppee} alt="" width="100px" height="100px"/>
+                        <img src={Ruppee} alt="" width="80px" height="80px"/>
                     </div>
                     <div className="feature__description">Feasible</div>
                 </div>
 
                 <div className="feature__details">
                     <div className="feature__image">
-                        <img src={Truck} alt="" width="100px" height="100px"/>
+                        <img src={Truck} alt="" width="80px" height="80px"/>
                     </div>
                     <div className="feature__description">All Vehicles</div>
                 </div>
 
                 <div className="feature__details">
                     <div className="feature__image">
-                        <img src={Phone} alt="" width="100px" height="100px"/>
+                        <img src={Phone} alt="" width="80px" height="80px"/>
                     </div>
                     <div className="feature__description"> A Phonecall Away</div>
-                </div>                
+                </div> 
             </div>
+
+            
 
             <div className="about__us">
                 <div className="about__usHeading">ABOUT US</div>
@@ -43,6 +130,15 @@ function Items() {
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                 </div>
             </div>
+
+        <div className="footer">
+            <div className="footer__copyright">
+                © 2021 HappyBots
+            </div>
+            <div className="footer__text">
+                Designed with ❤ in TSEC
+            </div>
+        </div>
         </div>
     )
 }

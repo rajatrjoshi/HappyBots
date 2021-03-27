@@ -8,8 +8,9 @@
     width: 100%;
     top: 0;
     left: 0;
-    margin-bottom: 20px;
-    
+    margin-bottom: 10px;
+    background-color: white;
+    z-index: 1;
 }
 
 .logo__image{
@@ -24,6 +25,7 @@
     margin-right: 400px;
 }
 
+
 .header__center{
     font-size: 20px;
     width: 70%;
@@ -32,24 +34,12 @@
     align-items: center;
 }
 
-.header__center a:nth-child(1){
-    background-color: #FFAE8C;
-
+.header__center a{
+    background-color: #E3D5B9;
 }
 
-.header__center a:nth-child(2){
-    background-color: #00E9FB;
-
-}
-
-.header__center a:nth-child(3){
-    background-color: #00FFB0;
-
-}
-
-.header__center a:nth-child(4){
-    background-color: #00E9FB;
-
+.header__center Link{
+    text-decoration: none;
 }
 
 .logo__name{

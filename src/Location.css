@@ -1,0 +1,40 @@
+.location__button{
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #E3D5B9;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
+.button__text{
+    align-items: center;
+}
+
+.coord__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location{
+    display: flex;
+    flex-direction:column;
+}
+
+.user__coordinates{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.map__heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}

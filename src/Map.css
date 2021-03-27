@@ -1,0 +1,16 @@
+.google_map{
+    margin-right: 50px;
+}
+
+.book__servicetext{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: rgb(221, 50, 50);
+    display:flex;
+    justify-content: center;
+    width:fit-content;
+    margin-left: 35%;
+    color: white;
+    font-weight: bold;
+}

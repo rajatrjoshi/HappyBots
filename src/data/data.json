@@ -1,0 +1,160 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Bearbrook Skateboard Park",
+          "NAME_FR": "Planchodrome Bearbrook",
+          "ADDRESS": "8720 Russell Road",
+          "ADDRESS_FR": "8720, chemin Russell",
+          "FACILITY_T": "flat",
+          "FACILITY_1": "plat",
+          "ACCESSCTRL": "no/non",
+          "ACCESSIBLE": "no/non",
+          "OPEN": null,
+          "NOTES": "Outdoor",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
+          "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
+          "DESCRIPTIO": "Flat asphalt surface, 5 components",
+          "DESCRIPT_1": "Surface d'asphalte plane, 5 modules",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [19.79, 72.7]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Bearbrook Skateboard Park",
+          "NAME_FR": "Planchodrome Bearbrook",
+          "ADDRESS": "8720 Russell Road",
+          "ADDRESS_FR": "8720, chemin Russell",
+          "FACILITY_T": "flat",
+          "FACILITY_1": "plat",
+          "ACCESSCTRL": "no/non",
+          "ACCESSIBLE": "no/non",
+          "OPEN": null,
+          "NOTES": "Outdoor",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
+          "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
+          "DESCRIPTIO": "Flat asphalt surface, 5 components",
+          "DESCRIPT_1": "Surface d'asphalte plane, 5 modules",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [19.79, 72.75]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 1717,
+          "FACILITYID": 28018,
+          "NAME": "Greenboro Skateboard Park",
+          "NAME_FR": "Planchodrome de Greenboro",
+          "ADDRESS": "3142 Conroy Road",
+          "ADDRESS_FR": "3142, chemin Conroy",
+          "FACILITY_T": "flat",
+          "FACILITY_1": "plat",
+          "ACCESSCTRL": "no/non",
+          "ACCESSIBLE": "no/non",
+          "OPEN": null,
+          "NOTES": "Outdoor",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
+          "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
+          "DESCRIPTIO": "Flat asphalt surface, 5 components",
+          "DESCRIPT_1": "Surface d'asphalte plane, 5 modules",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [19.73, 72.76 ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 137,
+          "FACILITYID": 28019,
+          "NAME": "Bridlewood Skateboard Park",
+          "NAME_FR": "Planchodrome Bridlewood",
+          "ADDRESS": "65 Stonehaven Drive",
+          "ADDRESS_FR": "65, promenade Stonehaven",
+          "FACILITY_T": "flat",
+          "FACILITY_1": "plat",
+          "ACCESSCTRL": "no/non",
+          "ACCESSIBLE": "no/non",
+          "OPEN": null,
+          "NOTES": "Outdoor",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
+          "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
+          "DESCRIPTIO": "Flat asphalt surface, 5 components",
+          "DESCRIPT_1": "Surface d'asphalte plane, 5 modules",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [19.76, 72.7]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 1133,
+          "FACILITYID": 28020,
+          "NAME": "Roving Skateboard Park Location",
+          "NAME_FR": "Lieu de planchodrome itinérant",
+          "ADDRESS": "100 Clifford Campbell Street",
+          "ADDRESS_FR": "100, rue Clifford-Campbell",
+          "FACILITY_T": "flat",
+          "FACILITY_1": "plat",
+          "ACCESSCTRL": "no/non",
+          "ACCESSIBLE": "no/non",
+          "OPEN": null,
+          "NOTES": "Outdoor",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "FACILITY": "Fitzroy Harbour Community Centre - Roving Skateboard Park Location",
+          "FACILITY_F": "Centre communautaire de Fitzroy Harbour - Lieu de planchodrome itinérant",
+          "DESCRIPTIO": "Flat surface, 5 components",
+          "DESCRIPT_1": "Surface plane, 5 modules",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [19.749, 72.75]
+        }
+      }
+      
+    ]
+  }

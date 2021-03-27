@@ -1,6 +1,53 @@
+.slider {
+    padding: 35px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image {
+    width: 90vw;
+    height: 80vh;
+    border-radius: 10px;
+}
+  
+.right-arrow {
+    position: absolute;
+    top: 45%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.left-arrow {
+    position: absolute;
+    top: 45%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+  
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08)
+}
+
 .items{
-    padding: 5px;
-    margin-top: 60px;
+    margin-top: 70px;
+    background-color: white;
 }
 
 .key__features{
@@ -15,15 +62,29 @@
 }
 
 .feature__image{
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 10px;
     background-color: #FFAE8C;
     border-radius: 50%;
 }
 
 .feature__description{
+    font-size: 18px;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.about__us{
+    border: 2px solid black;
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+    border-radius: 15px;
 }
 
 .about__usdescription{
@@ -42,3 +103,51 @@
     font-weight: 500;
 
 }
+
+.services__offered{
+    display:flex;
+    flex-direction: column;
+    padding-top: 15px; 
+    background-color: #E8E8E8; 
+    padding-bottom: 15px;
+
+}
+
+.service__details1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.service__logo{
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+
+.details__line1{
+    padding: 5%;
+    font-size: 20px;
+    width: 25%;
+    height: 350px;
+    margin: 15px;
+    background-color: white; 
+    border-radius: 10px; 
+
+}
+
+.footer{
+    background-color: rgb(46, 44, 44);
+    width: 100%;
+    height: 50px ;
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
