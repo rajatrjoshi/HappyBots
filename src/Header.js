@@ -18,15 +18,18 @@ function Header() {
             
             <div className="header__center">
                 <Link to="/service-center">Find a mechanic</Link>
-                <Link to="#">Our Store</Link>
-                <Link to="#about__us">About Us</Link>
+                <Link to="/ourstore">Our Store</Link>
+                <Link to="#">About Us</Link>
                 <Link to="#">Contact Us</Link>
+                <Link to="/login">
+                    <div className="login__font">
+                    <PersonIcon fontSize="large" />
+                    <span className="login__text">Login
+                    </span>
+                    </div>
+                </Link>
             </div>
 
-            <div className="header__right">
-                <PersonIcon fontSize="large"/>
-                <div className="login__text">Login</div>
-            </div>
         
         
         </div>

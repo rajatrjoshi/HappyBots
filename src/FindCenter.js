@@ -1,36 +1,119 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './FindCenter.css'
 import Location from './Location.js';
 import Map from './Map.js'
-import * as mechanicdata from './data/data.json';
+import {Link} from 'react-router-dom'
+import * as Icons from '@material-ui/icons'
+
 
 function FindCenter() {
 
-    const [selectedCenter, setSelectedCenter] = useState(null);
+    // const [selectedCenter, setSelectedCenter] = useState(null);
 
     return (
         <div className="findcenter">
             <Location />
             <Map />
             <div className="servicecenter__details">
-                <div className="servicecenter__image">
+                <div className="servicecenter__line1">
+                <div className="center__list">
+                        <div className="center__title">
+                            <div className="servicecenter__image">
+                                <Icons.AccessAlarms/>
+                            </div>
+                            <div className="servicecenter__name">
+                                Reliable Car Care
+                            </div>
+                        </div>
+                        
+                        <div className="servicecenter__ecommlink">
+                            Buy A Product: <Link to="/our-store"> Switch to Store</Link>
+                        </div>
+                        <div className="servicecenter__contact">
+                            <div className="servicecenter__phone">
+                                Phone No: +91-9826544884
+                            </div>
+                            <div className="servicecenter__mail">
+                                Email At: xyy@example.com
+                            </div>
+                        </div>
+                    </div>
 
-                </div>
-                <div className="servicecenter__name">
+                    <div className="center__list">
+                        <div className="center__title">
+                            <div className="servicecenter__image">
+                                <Icons.AccessAlarms/>
+                            </div>
+                            <div className="servicecenter__name">
+                                Reliable Car Care
+                            </div>
+                        </div>
+                        
+                        <div className="servicecenter__ecommlink">
+                            Buy A Product: <Link to="/our-store"> Switch to Store</Link>
+                        </div>
+                        <div className="servicecenter__contact">
+                        <div className="servicecenter__phone">
+                                Phone No: +91-9826544884
+                            </div>
+                            <div className="servicecenter__mail">
+                                Email At: xyy@example.com
+                            </div>
+                        </div>
+                    </div>
                     
-                </div>
-                <div className="servicecenter__ecommlink">
 
-                </div>
-                <div className="servicecenter__contact">
-                    <div className="servicecenter__phone">
-
+                    <div className="center__list">
+                        <div className="center__title">
+                            <div className="servicecenter__image">
+                                <Icons.AccessAlarms/>
+                            </div>
+                            <div className="servicecenter__name">
+                                Reliable Car Care
+                            </div>
+                        </div>
+                        
+                        <div className="servicecenter__ecommlink">
+                            Buy A Product: <Link to="/our-store"> Switch to Store</Link>
+                        </div>
+                        <div className="servicecenter__contact">
+                        <div className="servicecenter__phone">
+                                Phone No: +91-9826544884
+                            </div>
+                            <div className="servicecenter__mail">
+                                Email At: xyy@example.com
+                            </div>
+                        
+                        </div>
                     </div>
-                    <div className="servicecenter__mail">
 
+                    <div className="center__list">
+                        <div className="center__title">
+                            <div className="servicecenter__image">
+                                <Icons.AccessAlarms/>
+                            </div>
+                            <div className="servicecenter__name">
+                                Reliable Car Care
+                            </div>
+                        </div>
+                        
+                        <div className="servicecenter__ecommlink">
+                            Buy A Product: <Link to="/our-store"> Swtich to Store</Link>
+                        </div>
+                        <div className="servicecenter__contact">
+                        <div className="servicecenter__phone">
+                                Phone No: +91-9826544884
+                            </div>
+                            <div className="servicecenter__mail">
+                                Email At: xyy@example.com
+                            </div>
+                        </div>
                     </div>
-                </div>
+
+                </div>    
             </div>
+
+                
         </div>
     )
 }

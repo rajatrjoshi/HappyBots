@@ -4,9 +4,10 @@ import Items from './Items.js';
 import {
   BrowserRouter as Router,
   Switch,
-  Route, 
+  Route
 } from "react-router-dom";
 import FindCenter from './FindCenter.js';
+import OurStore from './OurStore.js'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/service-center">
             <FindCenter />
+          </Route>
+          <Route path="/ourstore">
+            <OurStore />
           </Route>
         </Switch>
       </Router>

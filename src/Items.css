@@ -100,14 +100,13 @@
 .about__usHeading{
     margin-left: 20px;
     font-size: 25px;
-    font-weight: 500;
-
+    font-weight: bold;
 }
 
 .services__offered{
     display:flex;
     flex-direction: column;
-    padding-top: 15px; 
+    padding-top: 5px; 
     background-color: #E8E8E8; 
     padding-bottom: 15px;
 
@@ -120,9 +119,28 @@
     text-align: center;
 }
 
+.service__title{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 .service__logo{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    padding: 5%;
     border-radius: 50%;
+}
+
+.contact__us{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.service__description{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
