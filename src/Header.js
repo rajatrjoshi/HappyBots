@@ -21,7 +21,7 @@ function Header() {
                 <Link to="/ourstore">Our Store</Link>
                 <Link to="#">About Us</Link>
                 <Link to="#">Contact Us</Link>
-                <Link to="/login">
+                <Link to="/Login">
                     <div className="login__font">
                     <PersonIcon fontSize="large" />
                     <span className="login__text">Login
