@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react"
 import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../context/AuthContext"
+import  { Container } from 'react-bootstrap';
 import { Link, useHistory } from "react-router-dom"
 
 export default function Login() {
@@ -28,7 +29,9 @@ export default function Login() {
 
   return (
     <>
-      <Card >
+    <Container className="d-flex align-items-center justify-content-center center-div" style={{ minHeight: "100vh" }}>
+           <div className="w-100" style={{ maxWidth: "400px" }}>
+      <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Log In</h2>
           {error && <Alert variant="danger">{error}</Alert>}
@@ -56,6 +59,8 @@ export default function Login() {
               Back to <Link to="/home">Home</Link> 
         </p>
       </div>
+      </div>
+      </Container>
     </>
   )
 }

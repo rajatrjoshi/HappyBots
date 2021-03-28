@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './Header.js';
 import Items from './Items.js';
-import  { Container } from 'react-bootstrap';
 import Signup from "./component/Signup";
 import Login from "./component/login";
 import {
@@ -43,24 +42,20 @@ function App() {
                 </div>
             </Container>
           </AuthProvider> */}
-          <AuthProvider>
-            <Container 
-            className="d-flex align-items-center justify-content-center center-div"
-            style={{ minHeight: "100vh" }}>
-               
-            </Container>
-             <Switch>
+         
 
-                <div className="w-100" style={{ maxWidth: "400px" }}>
-                    <Route exact path="/signup" component={Signup} />
-                    <Route exact path="/login" component={Login} />
-                </div>
+             <AuthProvider>
+             <Switch>
+             <Route exact path="/signup" component={Signup} />
+             <Route exact path="/login" component={Login} />
                 </Switch>
-        </AuthProvider>
+                </AuthProvider>
+        
       </Router>
       {/* <FindCenter /> */}
     </div>
   );
+
 }
 
 export default App;
