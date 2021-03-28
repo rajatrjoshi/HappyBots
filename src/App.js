@@ -47,14 +47,15 @@ function App() {
             <Container 
             className="d-flex align-items-center justify-content-center center-div"
             style={{ minHeight: "100vh" }}>
-                <Switch>
+               
+            </Container>
+             <Switch>
 
                 <div className="w-100" style={{ maxWidth: "400px" }}>
                     <Route exact path="/signup" component={Signup} />
                     <Route exact path="/login" component={Login} />
                 </div>
                 </Switch>
-            </Container>
         </AuthProvider>
       </Router>
       {/* <FindCenter /> */}

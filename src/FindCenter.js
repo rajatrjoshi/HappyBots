@@ -45,7 +45,7 @@ function FindCenter() {
                                 <Icons.AccessAlarms/>
                             </div>
                             <div className="servicecenter__name">
-                                Reliable Car Care
+                            Prime Car Inn
                             </div>
                         </div>
                         
@@ -69,7 +69,7 @@ function FindCenter() {
                                 <Icons.AccessAlarms/>
                             </div>
                             <div className="servicecenter__name">
-                                Reliable Car Care
+                            D. S. Auto Garage
                             </div>
                         </div>
                         
@@ -93,7 +93,7 @@ function FindCenter() {
                                 <Icons.AccessAlarms/>
                             </div>
                             <div className="servicecenter__name">
-                                Reliable Car Care
+                            Guru Krupa Motor
                             </div>
                         </div>
                         
